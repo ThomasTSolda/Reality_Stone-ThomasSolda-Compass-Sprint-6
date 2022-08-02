@@ -1,7 +1,7 @@
 Dado('que esteja na tela de cadastrado de produto') do
   @Login = Login.new
   @Login.load
-  @Login.email.set 'thomasadm@thomas.com'
+  @Login.email.set 'thomasadm@adm.com'
   @Login.password.set '123456'
   @Login.submit.click
   @CadastroProdutos = CadastroProdutos.new

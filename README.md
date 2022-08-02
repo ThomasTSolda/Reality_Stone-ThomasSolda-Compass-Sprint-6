@@ -1,6 +1,6 @@
 <h1 align="center">Compass Challange By: Thomás Soldá</h1>
 <h3 align="center">Repositório criado para envio de Automação de Teste.</h3>
-
+<h3 align="center"> Está challenge tem o intuito de automatizar o máximo possível o e-commerce, com tudo o que aprendemos durante as sprints passadas.</h3>
 
 ## 🔑  Pré-requisitos
 
@@ -26,6 +26,7 @@ Como Executar o aqruivo do Challange final da Sprint Compass
 
 ```sh
 - cucumber -t@"Tag do Teste"
+- cucumber features --format html --out reports.html "Para fazer o report html"
 ```
 
 ***
